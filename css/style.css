@@ -1,9 +1,12 @@
 /*
 Theme Name: Slate
-Theme URI: 
-Description: A Clean Slate
+Theme URI: http://lokaalgevonden.nl
+Description: A Clean Slate - Kalishoek child theme
 Version: 1.0
-Author: Ismay Wolff
-Author URI: http://www.ismaywolff.nl
+Author: Benno van Assen
+Author URI:
 Tags: Slate
+Template: slate
 */
+
+@import url('../slate/style.css');
