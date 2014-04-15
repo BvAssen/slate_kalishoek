@@ -31,7 +31,9 @@
 
 .Logo-textLink {
   vertical-align: top;
-  padding-top: rem(16px);
+  padding-top: rem(1px);
+  margin-left: 1em;
+
 }
 
 .Logo-textLink,
@@ -45,14 +47,20 @@
   color: $c-white;
   display: block;
   line-height: 1;
+  color: #005A97;
 }
 
 .Logo-headingTop {
-  font-family: 'Hobo', sans-serif;
-  font-size: rem(70px);
-  text-align: center;
+  font-family: $t-headerFontFamily;
+  font-size: rem(50px);
+  text-align: left;
+  letter-spacing:0.02em;
+  color: black;
 }
 
 .Logo-headingBottom {
-  font-size: rem(30px);
+  font-size: rem(20px);
+  font-weight: 400;
+  font-family: $t-fontFamily;
+
 }

@@ -1,12 +1,18 @@
 // *************************************
 //
-// Navigation
-// -> Reusable navigation module
+// Sidebar
+// -> This is an example module
 //
 // *************************************
 
-.Navigation {
-  text-align: center;
+.Sidebar {
+	@include span-columns(5);
+}
+
+.widgettitle{
+  font-size: rem(25px);
+  // color:$c-blue;
+
 }
 
 // -------------------------------------
@@ -19,13 +25,13 @@
 // Modifiers
 // -------------------------------------
 
+// .Module--modifierName
+
 // -------------------------------------
 // States
 // -------------------------------------
 
-.Navigation-link.is-active {
-  text-decoration: underline;
-}
+// .is-module-state
 
 // -------------------------------------
 // Context
@@ -37,29 +43,6 @@
 // Submodules
 // -------------------------------------
 
-// ----- List item ----- //
+// ----- Submodule ----- //
 
-.Navigation-listItem {
-  display: inline;
-  margin: 0 rem(15px);
-  &:first-of-type {
-    margin-left: 0;
-  }
-  &:last-of-type {
-    margin-right: 0;
-  }
-}
-
-// ----- Navigation link ----- //
-
-.Navigation-link {
-  text-transform: uppercase;
-}
-
-.Navigation-link--invertedBold {
-  color: $c-black; 
-  // font-weight: bold;
-  letter-spacing: 0.1em;
-  font-size: 1.5em;
-  line-height: 0.5em;
-}
+// .Module-subModule

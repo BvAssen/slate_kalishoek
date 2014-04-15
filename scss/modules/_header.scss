@@ -4,10 +4,12 @@
 // -> Main site header
 //
 // *************************************
+// ////
 
 .Header {
   background-image: url("../img/img-header-bg.png");
   background-size: cover;
+
 }
 
 // -------------------------------------
@@ -42,21 +44,32 @@
 
 .Header-contact {
   @extend .u-gridRow;
-  background: rgba($c-black,0.5);
+  // background: rgba($c-black,0.5);
 }
 
 // ----- Contact bar ----- //
 
 .Header-logo {
   @extend .u-gridRow;
-  background: rgba($c-black,0.25);
+  background: white;
+  margin-top: 42px;
+  padding-bottom: 0px;
+  padding-top: 0;
+  // background: rgba($c-black,0.25);
 }
 
 // ----- Nav bar ----- //
 
 .Header-nav {
   @extend .u-gridRow;
-  background: $c-blue;
+  // background: $c-blue;
+  // margin-top: 22.5px;
+  // border: 1px dotted black;
+  margin-top: 14px;
+  margin-bottom: 7px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  padding: 0px;
 }
 
 // ----- Carousel ----- //
@@ -64,3 +77,5 @@
 .Header-carousel {
   @extend .u-gridRow;
 }
+
+

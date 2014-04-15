@@ -41,7 +41,7 @@
 // Modules
 // -------------------------------------
 
-@import "modules/header";
+@import "modules/header";	
 
 @import "modules/logo";
 
@@ -55,6 +55,50 @@
 
 @import "modules/offer";
 
+@import "modules/sidebar";
+
+@import "modules/slider";
+
+@import "modules/phone";
+
+
+
+
 // -------------------------------------
 // Inbox
 // -------------------------------------
+
+body{
+
+background: rgb(178,225,255); /* Old browsers */
+background: linear-gradient(to bottom, rgba(178,225,255,1) 47%,rgba(57,128,204,1) 84%); /* W3C */
+// @include linear-gradient(#1e5799, #2989d8);
+ // background-image:url('../img/tiles3.png');
+}
+
+body > div {
+	background: white;
+}
+
+.col7 {
+@include span-columns(7);
+}
+
+.Informatie{
+	color:$c-blue;
+	letter-spacing:0.02em;
+
+}
+
+// body > div:nth-child(2)
+
+body > div{
+		margin-top: 1em;
+}
+
+.Blue-header{
+  font-size: rem(25px);
+  color:$c-blue;
+}
+
+
