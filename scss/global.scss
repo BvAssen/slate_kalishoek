@@ -61,6 +61,7 @@
 
 @import "modules/phone";
 
+@import "modules/footer";
 
 
 
@@ -69,19 +70,42 @@
 // -------------------------------------
 
 body{
+	// background: rgb(129,203,232); /* Old browsers */
+	// background: linear-gradient(to bottom, rgba(129,203,232,1) 0%,rgba(159,216,239,1) 29%,rgba(191,232,249,1) 42%,rgba(228,245,252,1) 62%); /* W3C */
+	
 
-background: rgb(178,225,255); /* Old browsers */
-background: linear-gradient(to bottom, rgba(178,225,255,1) 47%,rgba(57,128,204,1) 84%); /* W3C */
-// @include linear-gradient(#1e5799, #2989d8);
- // background-image:url('../img/tiles3.png');
+	background: rgb(96,171,248); /* Old browsers */
+background: linear-gradient(to bottom, rgba(96,171,248,1) 5%,rgba(255,255,255,1) 97%); /* W3C */
+	background-image: url("http://www.transparenttextures.com/patterns/always-grey.png");
+
+	// 	background: rgb(112,200,255); /* Old browsers */
+	// background: linear-gradient(to bottom, rgba(112,200,255,1) 47%,rgba(0,98,204,1) 91%); /* W3C */
+
+	// background: rgb(178,225,255); /* Old browsers */
+	// background: linear-gradient(to bottom, rgba(178,225,255,1) 47%,rgba(57,128,204,1) 84%); /* W3C */
+	// @include linear-gradient(#1e5799, #2989d8);
+
+	// background: rgb(125,185,232); /* Old browsers */
+	// background: linear-gradient(to bottom, rgba(125,185,232,1) 20%,rgba(41,137,216,1) 100%); /* W3C *///LAST VERSION
+
+
+	// background: rgb(125,185,232); /* Old browsers */
+	// background: linear-gradient(to bottom, rgba(125,185,232,1) 60%,rgba(14,124,214,1) 100%); /* W3C */
+
+	// background-image:url('../img/knitted.png');
+
+	// background-color: #00baab;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 body > div {
-	background: white;
+	background-color: rgba(#fff, 0.7);
+	margin-top: 1.5em;
+	border-top: 3px solid white;
 }
 
-.col7 {
-@include span-columns(7);
+.col6 {
+	@include span-columns(6);
 }
 
 .Informatie{
@@ -90,15 +114,86 @@ body > div {
 
 }
 
-// body > div:nth-child(2)
-
-body > div{
-		margin-top: 1em;
-}
-
 .Blue-header{
-  font-size: rem(25px);
-  color:$c-blue;
+	font-size: rem(25px);
+	color:$c-blue;
 }
 
+.Sidebarpic{
+	background-image: url("files/2014/04/front.jpg"); 
+	background-repeat: no-repeat;
+	width: auto; /*or your image's width*/
+	height: auto; /*or your image's height*/
+	margin: 0;
+	margin-top: 20px;
+	padding: 0;
+	border: 3px solid $c-navblue;
+}
 
+.Line{
+	background-color: $c-navblue;
+	border: none;
+	height: 2px;
+}
+
+.sidebarpic2{
+	margin-top: 4em;
+	padding-left: 8em;
+}
+
+.usp li{
+	font-size: 18px;
+}
+
+li.icon::before {
+	content: "";
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	vertical-align: middle;
+	padding-bottom: 0.2em;
+	margin-right: 0.5em;
+	background-repeat: no-repeat;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;	
+	box-sizing: border-box;		
+
+}
+
+li.check::before {
+	background-image: url('/files/2014/04/check.png');
+	height: 1.3em;
+	width: 1.3em;
+}
+
+aside.col6{
+	margin-top: 1em;
+margin-bottom: 1em;	
+}
+
+.Contact-form{
+	width: 50em;
+}
+
+.Contactbar{
+	float:right;
+	margin-top: 3em;
+}
+
+li.phone::before {
+	background-image: url('/files/2014/04/phone-white.png');
+	height: 1.3em;
+	width: 1.3em;	
+}
+
+li.email::before {
+	background-image: url('/files/2014/04/mail.png');
+	height: 1.3em;
+	width: 1.3em;
+}
+
+li.box::before {
+	background: $c-white;	
+	
+}

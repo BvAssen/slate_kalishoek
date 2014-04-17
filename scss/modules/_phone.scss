@@ -1,6 +1,7 @@
 .Phone{
-	margin-top: 45px;
-	padding-right: 3em;
+	margin-top: 36px;
+	padding-right: 6.3em;
+	text-decoration: none;
 }
 
 .Phone-nr{
@@ -8,4 +9,44 @@
 	display: block;
   	line-height: 1;
 	letter-spacing: 0.2em;
+
+	text-align: center;
+  vertical-align: center;
+  margin: auto;
+  
+  cursor: pointer;
+  -webkit-duration: .3s;
+  -moz-duration: .3s;
+  -o-duration: .3s;
+  transition-duration: .3s;
+
+  &:hover{
+    color: $c-navblue;
+  // border-radius: 30%;
+   }
+}
+.Phone-nr2{
+  color: $c-lightblue;
+  font-size: rem(20px);
+  // display: block;
+    line-height: 1;
+  letter-spacing: 0.2em;
+
+  text-align: center;
+  vertical-align: center;
+  margin: auto;
+  
+  cursor: pointer;
+  -webkit-duration: .3s;
+  -moz-duration: .3s;
+  -o-duration: .3s;
+  transition-duration: .3s;
+
+  &:hover{
+    color: $c-navblue;
+    text-decoration: none;
+  // border-radius: 30%;
+   
+  } 
+
 }

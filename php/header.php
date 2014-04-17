@@ -32,6 +32,12 @@
     
     <script type="text/javascript" src="//use.typekit.net/nva7lcq.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <link href="css/hover.css" rel="stylesheet" media="all">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
+
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
 
@@ -48,14 +54,20 @@
         <div class="u-gridContainer Informatie">
         
           <div class="Logo">
-              <a href="/" class="Logo-imageLink"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/kalishoek-logo.svg" alt="Logo"></a>
+              <a href="/" class="Logo-imageLink"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/kalishoek-logo.png" alt="Logo"></a>
               <a href="/" class="Logo-textLink"><h1 class="Logo-heading"><span class="Logo-headingTop">Kalishoek Slotenservice</span>
                 <span class="Logo-headingBottom">De slotenmaker voor Rotterdam en regio Hoekse Waard & Drechtsteden</span></h1></a>
           </div>
+
           <span class="u-objRight Phone">
           
             Bel ons voor meer informatie
-        <span class="Phone-nr">0180-394444</span></h1></a>
+      
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/phone.png" />
+        <span class="Phone-nr" style=""><a href="tel:(0)35 - 693 11 09">0180-394444</a></span>
+
+
+        
 
           
           </span>
@@ -72,13 +84,16 @@
   
 
  <!-- Slider -->
+ <?php if(is_front_page()) { ?>
+        
+
   <div class="u-gridRow">
       <div class="Slider-frame">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/kalishoek3.jpg" />
       </div>
     </div>
   </div>
-
+  <?php } ?>
     
     <div class="u-gridRow bgwhite">
       <div class="u-gridContainer">

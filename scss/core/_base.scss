@@ -11,7 +11,7 @@ html {
 
 body {
   background  : $c-white;
-  color       : $c-black;
+  color       : $c-darkgrey;
   font-family : $t-fontFamily;
   font-size   : 100%;
   line-height : $t-lineHeight;
@@ -23,6 +23,7 @@ body {
 
 p {
   font-size: rem($t-fontSize);
+  line-height: 1.6em;
 }
 
 h1, h2, h3,
@@ -50,6 +51,7 @@ h4 {
 h5 {
   font-size: rem(20px);
 }
+
 
 h6 {
   font-size: rem(16px);

@@ -6,8 +6,10 @@
 // *************************************
 
 .Button {
-  display: inline-block;
-  padding: rem(10px) rem(5px);
+  display: inline-block; 
+    text-decoration: none;
+
+  // padding: rem(10px) rem(5px);
   &:hover {
     text-decoration: none;
   }
@@ -32,6 +34,31 @@
   color: $c-white;
   fill: $c-white;
   background: $c-blue;
+}
+
+.Button--nav{
+  // border: 1px solid white;
+  text-align: center;
+  vertical-align: center;
+  // background: red;
+  padding: 0.7em;
+  margin: auto;
+  
+  border-radius: 10px;
+  // background: #7DB9E8;
+  cursor: pointer;
+  -webkit-duration: .3s;
+  -moz-duration: .3s;
+  -o-duration: .3s;
+  transition-duration: .3s;
+
+  &:hover{
+    // background: $c-lightyellow;
+   background: rgba($c-lightyellow, 0.2);
+
+  // border-radius: 30%;
+
+  }
 }
 
 // -------------------------------------

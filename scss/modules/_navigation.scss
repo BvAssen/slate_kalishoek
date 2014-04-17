@@ -7,6 +7,8 @@
 
 .Navigation {
   text-align: center;
+    text-decoration: none;
+
 }
 
 // -------------------------------------
@@ -24,7 +26,17 @@
 // -------------------------------------
 
 .Navigation-link.is-active {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #fff;
+  @extend .Button--nav;
+   background: $c-lightyellow;
+   background: rgba($c-lightyellow, 0.2);
+}
+
+.Navigation-link:hover {
+  text-decoration: none;
+  color: $c-white;
+  
 }
 
 // -------------------------------------
@@ -37,9 +49,10 @@
 // Submodules
 // -------------------------------------
 
-// ----- List item ----- //
+// ----- List item ----- ///
 
 .Navigation-listItem {
+
   display: inline;
   margin: 0 rem(15px);
   &:first-of-type {
@@ -53,13 +66,15 @@
 // ----- Navigation link ----- //
 
 .Navigation-link {
+  @extend .Button;
+  @extend .Button--nav;
   text-transform: uppercase;
 }
 
 .Navigation-link--invertedBold {
-  color: $c-black; 
+  color: $c-white; 
   // font-weight: bold;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   font-size: 1.5em;
   line-height: 0.5em;
 }

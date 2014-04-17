@@ -1,0 +1,20 @@
+.Footer {
+	background-color: rgba(#fff, 0.3);
+	 border-top: 3px solid white;
+
+
+
+	.widget {
+		@include span-columns(4);
+	}
+
+	.widgettitle{
+				// font-weight: normal;
+  font-size: rem(20px);
+
+	}
+}
+
+#text-4{
+	padding-left: 3.5em;
+}
