@@ -7,7 +7,8 @@
 
 .Navigation {
   text-align: center;
-    text-decoration: none;
+  text-decoration: none;
+  
 
 }
 
@@ -36,6 +37,7 @@
 .Navigation-link:hover {
   text-decoration: none;
   color: $c-white;
+  text-decoration: none;
   
 }
 
@@ -61,6 +63,11 @@
   &:last-of-type {
     margin-right: 0;
   }
+  @media screen and (max-width: 768px) {
+  
+    display: block;
+    
+  }
 }
 
 // ----- Navigation link ----- //
@@ -69,12 +76,23 @@
   @extend .Button;
   @extend .Button--nav;
   text-transform: uppercase;
+
+  
 }
 
 .Navigation-link--invertedBold {
-  color: $c-white; 
+  color: $c-black; 
   // font-weight: bold;
   letter-spacing: 0.05em;
   font-size: 1.5em;
   line-height: 0.5em;
 }
+
+.nav-toggle{
+  background: url('../img/hamburger.gif');
+  height: 48px;
+  width: 48px;
+  background-size: 48px;
+  display: block;
+}
+

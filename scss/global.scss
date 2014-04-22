@@ -18,8 +18,13 @@
 // ----- Bourbon Neat ----- //
 @import "libs/neat/neat";
 
+// ----- Responsive nav ----- //
+@import "libs/responsive-nav/responsive-nav";
+
 // ----- Override ----- //
 @import "libs/libs-override";
+
+
 
 // -------------------------------------
 // Core
@@ -73,10 +78,13 @@ body{
 	// background: rgb(129,203,232); /* Old browsers */
 	// background: linear-gradient(to bottom, rgba(129,203,232,1) 0%,rgba(159,216,239,1) 29%,rgba(191,232,249,1) 42%,rgba(228,245,252,1) 62%); /* W3C */
 	
-
-	background: rgb(96,171,248); /* Old browsers */
-background: linear-gradient(to bottom, rgba(96,171,248,1) 5%,rgba(255,255,255,1) 97%); /* W3C */
-	background-image: url("http://www.transparenttextures.com/patterns/always-grey.png");
+	
+// 	background: rgb(96,171,248); /* Old browsers */
+// background: linear-gradient(to bottom, rgba(96,171,248,1) 5%,rgba(255,255,255,1) 97%); /* W3C */
+background: rgb(106,153,207); /* Old browsers */
+background: linear-gradient(to bottom, rgba(106,153,207,1) 0%,rgba(96,171,248,1) 100%,rgba(129,168,219,1) 100%); /* W3C */
+	// background-image: url("http://www.transparenttextures.com/patterns/always-grey.png");
+	background-image: url('../img/always-grey.png');
 
 	// 	background: rgb(112,200,255); /* Old browsers */
 	// background: linear-gradient(to bottom, rgba(112,200,255,1) 47%,rgba(0,98,204,1) 91%); /* W3C */
@@ -99,7 +107,8 @@ background: linear-gradient(to bottom, rgba(96,171,248,1) 5%,rgba(255,255,255,1)
 }
 
 body > div {
-	background-color: rgba(#fff, 0.7);
+	background-color: $c-white;
+	// background-color: rgba(#fff, 0.7);
 	margin-top: 1.5em;
 	border-top: 3px solid white;
 }
@@ -196,4 +205,23 @@ li.email::before {
 li.box::before {
 	background: $c-white;	
 	
+}
+
+.app-image{
+	// height: 11em;
+	display:inline-block;
+    width: 128px; 
+    height: 128px; 
+}
+
+.app-images{
+
+    width: 150px;
+    float: left;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    padding-top: 20px;
+    padding-right: 20px;
 }
