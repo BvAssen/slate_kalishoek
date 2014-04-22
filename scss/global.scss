@@ -66,6 +66,9 @@
 
 @import "modules/phone";
 
+@import "modules/lists";
+
+
 @import "modules/footer";
 
 
@@ -123,21 +126,8 @@ body > div {
 
 }
 
-.Blue-header{
-	font-size: rem(25px);
-	color:$c-blue;
-}
 
-.Sidebarpic{
-	background-image: url("files/2014/04/front.jpg"); 
-	background-repeat: no-repeat;
-	width: auto; /*or your image's width*/
-	height: auto; /*or your image's height*/
-	margin: 0;
-	margin-top: 20px;
-	padding: 0;
-	border: 3px solid $c-navblue;
-}
+
 
 .Line{
 	background-color: $c-navblue;
@@ -145,16 +135,40 @@ body > div {
 	height: 2px;
 }
 
-.sidebarpic2{
-	margin-top: 4em;
-	padding-left: 8em;
+aside.col6{
+	margin-top: 1em;
+margin-bottom: 1em;	
 }
 
 .usp li{
 	font-size: 18px;
 }
 
-li.icon::before {
+l
+.app-image{
+	// height: 11em;
+	display:inline-block;
+    width: 128px; 
+    height: 128px; 
+}
+
+.app-images{
+
+    width: 150px;
+    float: left;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.usp li{
+	font-size: 18px;
+}
+
+i.icon::before {
 	content: "";
 	display: inline-block;
 	height: 1em;
@@ -170,16 +184,13 @@ li.icon::before {
 
 }
 
-li.check::before {
+li.check::before { 
 	background-image: url('/files/2014/04/check.png');
 	height: 1.3em;
 	width: 1.3em;
 }
 
-aside.col6{
-	margin-top: 1em;
-margin-bottom: 1em;	
-}
+
 
 .Contact-form{
 	width: 50em;
@@ -207,21 +218,3 @@ li.box::before {
 	
 }
 
-.app-image{
-	// height: 11em;
-	display:inline-block;
-    width: 128px; 
-    height: 128px; 
-}
-
-.app-images{
-
-    width: 150px;
-    float: left;
-    padding-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: #333333;
-    padding-top: 20px;
-    padding-right: 20px;
-}
