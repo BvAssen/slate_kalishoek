@@ -1,0 +1,65 @@
+// *************************************
+//
+// Module
+// -> Lists
+//
+// *************************************
+
+
+
+.usp li{
+	font-size: 18px;
+}
+
+li.icon::before {
+	content: "";
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	vertical-align: middle;
+	padding-bottom: 0.2em;
+	margin-right: 0.5em;
+	background-repeat: no-repeat;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;	
+	box-sizing: border-box;		
+
+}
+
+li.check::before { 
+	background-image: url('/files/2014/04/check.png');
+	height: 1.3em;
+	width: 1.3em;
+}
+
+
+
+.Contact-form{
+	width: 50em;
+}
+
+.Contactbar{
+	float:right;
+	margin-top: 3em;
+}
+
+li.phone::before {
+	background-image: url('/files/2014/04/phone-white.png');
+	height: 1.3em;
+	width: 1.3em;	
+}
+
+li.email::before {
+	background-image: url('/files/2014/04/mail.png');
+	height: 1.3em;
+	width: 1.3em;
+}
+
+li.box::before {
+	background: $c-white;	
+	
+}
+
+
+

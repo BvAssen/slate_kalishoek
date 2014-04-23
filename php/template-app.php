@@ -9,7 +9,7 @@ Template Name: App template
 		
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		
-			<article class="col6" id="post-<?php the_ID(); ?>">
+			<article class="u-col6" id="post-<?php the_ID(); ?>">
 				
 				<h2><?php the_title(); ?></h2>
 				<div>
@@ -20,7 +20,7 @@ Template Name: App template
 				</div>
 			</article>
 			
-			<aside class="col6">
+			<aside class="u-col6">
 				<div class="sidebarpic2">
 					<img src="/files/2014/04/24uur.jpg" class="u-border">
 				

@@ -7,6 +7,10 @@
 
 .Logo {
   display: inline-block;
+
+  @media screen and (max-width: 980px) {
+    margin-left: 1.1em;
+  }
 }
 
 // -------------------------------------
@@ -34,6 +38,10 @@
   padding-top: rem(1px);
   margin-left: 1em;
 
+  @media screen and (max-width: 980px) {
+  margin-left: 0;
+    }
+
 }
 
 .Logo-textLink,
@@ -52,16 +60,33 @@
 
 .Logo-headingTop {
   font-family: $t-headerFontFamily;
-  font-size: rem(50px);
+  font-size: rem(40px);
   text-align: left;
   letter-spacing:0.02em;
   color: $c-darkgrey;
+
+  @media screen and (max-width: 980px) {
+    font-size: rem(25px);
+  }
 }
 
+
 .Logo-headingBottom {
-  font-size: rem(20px);
+  font-size: rem(14px);
   font-weight: 400;
   font-family: $t-fontFamily;
   color:$c-blue;
 
+  @media screen and (max-width: 980px) {
+  font-size: rem(20px);
+    }
+
+}
+
+.Logo-heading{
+  @media screen and (max-width: 980px) {
+    margin-top: 0;  
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
 }

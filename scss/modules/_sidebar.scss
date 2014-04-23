@@ -1,8 +1,6 @@
 // *************************************
 //
 // Sidebar
-// -> This is an example module
-//
 // *************************************
 
 .Sidebar {
@@ -10,7 +8,12 @@
 	float:right;
 	margin-top: 9px;
   padding-left: 3.5em;
-	// margin-right: 10px;
+
+	@media screen and (max-width: 980px) {
+  @include span-columns(12);
+  padding-right: 550px;
+  padding-left: 0;
+  }
 }
 
 .widgettitle{
@@ -25,34 +28,20 @@
   margin-bottom: 0;
   margin-top: 10px;
 }
-// -------------------------------------
-// Module specific variables
-// -------------------------------------
 
-// Module-variableName
+.Sidebarpic{
+  background-image: url("files/2014/04/front.jpg"); 
+  background-repeat: no-repeat;
+  width: auto; /*or your image's width*/
+  height: auto; /*or your image's height*/
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  border: 3px solid $c-navblue;
+}
 
-// -------------------------------------
-// Modifiers
-// -------------------------------------
 
-// .Module--modifierName
-
-// -------------------------------------
-// States
-// -------------------------------------
-
-// .is-module-state
-
-// -------------------------------------
-// Context
-// -------------------------------------
-
-// .has-module
-
-// -------------------------------------
-// Submodules
-// -------------------------------------
-
-// ----- Submodule ----- //
-
-// .Module-subModule
+.sidebarpic2{
+  margin-top: 4em;
+  padding-left: 8em;
+}

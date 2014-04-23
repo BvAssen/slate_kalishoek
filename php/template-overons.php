@@ -9,7 +9,7 @@ Template Name: Overons template
 		
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		
-			<article class="col6" id="post-<?php the_ID(); ?>">
+			<article class="u-col6" id="post-<?php the_ID(); ?>">
 				
 				<h2><?php the_title(); ?></h2>
 				<div>
@@ -20,7 +20,7 @@ Template Name: Overons template
 				</div>
 			</article>
 			
-			<aside class="col6">
+			<aside class="u-col6">
 
 				<article>
 					<h3>Servicegericht</h3>

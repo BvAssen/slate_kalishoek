@@ -68,6 +68,8 @@
 
 @import "modules/lists";
 
+@import "modules/call";
+
 
 @import "modules/footer";
 
@@ -114,37 +116,33 @@ body > div {
 	// background-color: rgba(#fff, 0.7);
 	margin-top: 1.5em;
 	border-top: 3px solid white;
+	@media screen and (max-width: 980px) {
+		padding-left: 1.1em;
+	}
 }
 
-.col6 {
-	@include span-columns(6);
-}
+
 
 .Informatie{
 	color:$c-blue;
 	letter-spacing:0.02em;
 
 }
-
-
-
-
 .Line{
 	background-color: $c-navblue;
 	border: none;
 	height: 2px;
 }
 
-aside.col6{
+aside.u-col6{
 	margin-top: 1em;
-margin-bottom: 1em;	
+	margin-bottom: 1em;	
 }
 
 .usp li{
 	font-size: 18px;
 }
 
-l
 .app-image{
 	// height: 11em;
 	display:inline-block;
@@ -153,7 +151,6 @@ l
 }
 
 .app-images{
-
     width: 150px;
     float: left;
     padding-left: 20px;
@@ -162,59 +159,5 @@ l
     color: #333333;
     padding-top: 20px;
     padding-right: 20px;
-}
-
-.usp li{
-	font-size: 18px;
-}
-
-i.icon::before {
-	content: "";
-	display: inline-block;
-	height: 1em;
-	width: 1em;
-	vertical-align: middle;
-	padding-bottom: 0.2em;
-	margin-right: 0.5em;
-	background-repeat: no-repeat;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-ms-box-sizing: border-box;	
-	box-sizing: border-box;		
-
-}
-
-li.check::before { 
-	background-image: url('/files/2014/04/check.png');
-	height: 1.3em;
-	width: 1.3em;
-}
-
-
-
-.Contact-form{
-	width: 50em;
-}
-
-.Contactbar{
-	float:right;
-	margin-top: 3em;
-}
-
-li.phone::before {
-	background-image: url('/files/2014/04/phone-white.png');
-	height: 1.3em;
-	width: 1.3em;	
-}
-
-li.email::before {
-	background-image: url('/files/2014/04/mail.png');
-	height: 1.3em;
-	width: 1.3em;
-}
-
-li.box::before {
-	background: $c-white;	
-	
 }
 

@@ -37,7 +37,11 @@
 
     <!--Favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
-
+    
+    <!--AppIcon-->
+    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/app-icon.png"/>  
+    <link rel="apple-touch-startup-image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/app-icon.png" /> 
+    
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
 
@@ -48,6 +52,7 @@
   
 
   <!-- Header -->  
+  
   <header class="Header">
     
     <div class="Header-logo">

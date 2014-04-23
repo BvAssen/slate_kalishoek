@@ -31,12 +31,26 @@
 
 .u-gridContainer {
   @include outer-container;
+  padding-left: rem(20px);
+  padding-right: rem(20px);
 }
 
 .u-gridRow {
   @include row();
   padding-bottom : $l-whiteSpace;
   padding-top    : $l-whiteSpace;
+}
+
+.u-col6 {
+    @include span-columns(6);
+    @media screen and (max-width: 980px){
+      @include span-columns(12);
+    }
+
+}
+
+.u-col12 {
+  @include span-columns(12);
 }
 
 // -------------------------------------

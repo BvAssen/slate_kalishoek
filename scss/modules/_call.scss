@@ -1,0 +1,19 @@
+.Call {
+	width: 100%;
+	background-color: antiquewhite ;
+	padding: 20px;
+	font-size: rem(24px);
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.Call-button {
+	padding: 20px;
+	background-color: chartreuse;
+	color: $c-blue;
+	border-radius: 6px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
