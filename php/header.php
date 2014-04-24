@@ -32,8 +32,11 @@
     
     <script type="text/javascript" src="//use.typekit.net/nva7lcq.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+    <link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
 
     <link href="css/hover.css" rel="stylesheet" media="all">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
 
     <!--Favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
@@ -41,14 +44,15 @@
     <!--AppIcon-->
     <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/app-icon.png"/>  
     <link rel="apple-touch-startup-image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/app-icon.png" /> 
-    
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
 
   </head>
   <body <?php body_class(); ?> >
 
-  <!-- Include svg icons -->
+  <!-- Include svg icons  -->
   
 
   <!-- Header -->  
@@ -59,7 +63,7 @@
         <div class="u-gridContainer Informatie">
         
           <div class="Logo">
-              <a href="/" class="Logo-imageLink"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/kalishoek-logo.png" alt="Logo"></a>
+              <a href="/" class="Logo-imageLink"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/kalishoek-logo.svg" alt="Logo"></a>
               <a href="/" class="Logo-textLink"><h1 class="Logo-heading"><span class="Logo-headingTop">Kalishoek Slotenservice</span>
                 <span class="Logo-headingBottom">De slotenmaker voor Rotterdam en regio Hoekse Waard & Drechtsteden</span></h1></a>
           </div>

@@ -28,23 +28,25 @@
 
 .Navigation-link.is-active {
   text-decoration: none;
-  color: #fff;
+  color: $c-white;
   @extend .Button--nav;
-   background: $c-lightyellow;
-   background: rgba($c-lightyellow, 0.2);
+  background: rgba($c-lightyellow, 0.2);
 }
 
 .Navigation-link:hover {
   text-decoration: none;
   color: $c-white;
   text-decoration: none;
-  
+
 }
 
 a.Navigation-link{
+  text-decoration: none;
   color: $c-white;
-  letter-spacing: 2px;
-  font-size: rem(16px);
+  font-size: rem(24px);
+  font-weight: 600;
+  letter-spacing: 3px;
+
 
 }
 
@@ -61,7 +63,7 @@ a.Navigation-link{
 // ----- List item ----- ///
 
 .Navigation-listItem {
-
+  text-decoration: none;
   display: inline;
   margin: 0 rem(15px);
   &:first-of-type {
@@ -89,6 +91,7 @@ a.Navigation-link{
 }
 
 .Navigation-link--invertedBold {
+  text-decoration: none;
   color: $c-black; 
   // font-weight: bold;
   letter-spacing: 0.05em;

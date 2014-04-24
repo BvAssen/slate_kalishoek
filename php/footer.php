@@ -11,7 +11,7 @@
 
 	<!-- Copyright info -->
 	
-	<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Webshop en SEO door <a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden.nl</a> - <a href="/algemene-voorwaarden/">Algemene voorwaarden</a> - <a href="/privacy-beleid">Privacy beleid</a></p>
+	<p class="Footer-text">&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Webshop en SEO door <a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden.nl</a> - <a href="/algemene-voorwaarden/">Algemene voorwaarden</a> - <a href="/privacy-beleid">Privacy beleid</a></p>
 
   <!-- Load jquery from google CDN if possible, with fallback to local version -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>

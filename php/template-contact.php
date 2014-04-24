@@ -19,20 +19,17 @@ Template Name: Contact template
 				
 				</div>
 			</article>
-			
-			<div>
-			[gravityform id="1" name="contact" title="false"]
-			</div>
-
-				<div class="sidebarpic2">
-					<img src="/files/2014/04/diensten2.png" class="u-border">
-				
-				</div>
-			<aside>
-
 		<?php endwhile; endif; ?>
-
-			
+	
+			<aside class="u-col6">
+				<div class="Contactbar">
+					<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+					<div id="map_canvas"></div>
+					<div class="Contactbar-form">
+					<?php echo do_shortcode('[gravityform id="1" name="Contact" title="false"]'); ?>
+					</div>
+				</div>
+			</aside>
 		</div>
 	</div>
 

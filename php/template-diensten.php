@@ -31,7 +31,7 @@ Template Name: Diensten template
 					<img src="/files/2014/04/diensten2.png" class="u-border">
 				
 				</div>
-			<aside>
+			</aside>
 
 		<?php endwhile; endif; ?>
 

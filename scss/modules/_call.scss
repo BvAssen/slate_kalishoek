@@ -10,10 +10,16 @@
 
 .Call-button {
 	padding: 20px;
-	background-color: chartreuse;
-	color: $c-blue;
+	background-color: #489008;
+	color: #fff;
 	border-radius: 6px;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	padding: 3px;
 
+}
+
+.Call-button > a:nth-child(1){
+	color: white;
+	margin: 3px;
 }
