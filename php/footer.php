@@ -1,10 +1,14 @@
+
 	<div class="Footer">
 		<div class="u-gridContainer">
+			<div class="u-gridRow">
+
 			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
-			<div class="Footer-inner u-gridRow u-gridContainer">
+			<div class="Footer-inner">
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
 			</div>
 			<?php endif; ?>
+			</div>
 		</div>
 	</div>
 

@@ -6,19 +6,17 @@
 
 	.widget {
 		@include span-columns(4);
+		@media screen and(max-width: 600px){
+			@include span-columns(12);
+		}
 	}
 
 	.widgettitle{
-				// font-weight: normal;
-  font-size: rem(20px);
 
+  		font-size: rem(20px);
 	}
 }
-
-#text-4{
-	padding-left: 3.5em;
-}
-
+ 
 .footer-text{
 	padding: 10px;
 	background-color: white;

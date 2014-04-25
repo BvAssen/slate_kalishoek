@@ -38,6 +38,9 @@
   margin-top: 20px;
   padding: 0;
   border: 3px solid $c-navblue;
+  @media screen and (max-width: 780px) {
+    display: none;
+  }
 }
 
 

@@ -73,7 +73,7 @@
             Bel ons voor meer informatie
       
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/phone.png" />
-        <span class="Phone-nr" style=""><a href="tel:(0)35 - 693 11 09">0180-394444</a></span>
+        <span class="Phone-nr" style=""><a href="tel:0180-394444">0180-394444</a></span>
 
 
         
